@@ -1,0 +1,23 @@
+// -------------- Components --------------
+@import './SCSS/Components/bootstrap';
+@import './SCSS/Components/ScreenLoader';
+@import './SCSS/Components/header&footer';
+@import "./SCSS/Components/card";
+// -------------- Frontend --------------
+@import "./SCSS/Frontend/home";
+@import "./SCSS/Frontend/botPage";
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex : 1 0 auto;
+}
+
+
+::-webkit-scrollbar{
+    display : none;
+}

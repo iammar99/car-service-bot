@@ -1,0 +1,78 @@
+.bot-page {
+    background-color: #333333;
+}
+
+.userMessage {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.botMessage {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+p#userInput ,p.output {
+    color: white;
+    display: block;
+    width: 90%;
+    font-size: 20px;
+}
+
+
+// uiverse input area
+
+.container-fluid.chatContaienr {
+    height: 400px;
+    overflow: scroll;
+}
+
+.send-img {
+    width: 30px;
+}
+
+.send-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #40414F;
+    border: 1px solid #2E2F3A;
+    border-radius: 7px;
+    height: 66px;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 71px;
+    left: 10%;
+    padding: 0px 13px;
+    color: white;
+    font-size: 23px;
+}
+
+.send {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 88px;
+    right: 11%;
+}
+
+
+.send-icon {
+    width: 33px;
+}
+
+.send-input::placeholder {
+    color: #828E9E;
+    font-size:  15px;
+}
