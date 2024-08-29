@@ -50,3 +50,47 @@ a {
 .Link-button:hover {
     box-shadow: none;
 }
+
+
+
+
+
+
+// Text styling
+
+.botResponse, .userInput {
+    color: white; /* Set text color to white */
+}
+
+.chatContaienr {
+    background-color: #333; /* Optional: Set background to dark for better contrast */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.userMessage, .botMessage {
+    background-color: #444; /* Set background color for message bubbles */
+    border-radius: 12px;
+    padding: 10px 10px 10px 30px;
+    max-width: fit-content;
+    color: white; /* Ensure text is white for both messages */
+}
+
+.send-input {
+    border: none;
+    background-color: #555; /* Darker input background for contrast */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+// .send {
+//     background-color: #007BFF; /* Button background color */
+//     color: white; /* Button text color */
+//     border: none;
+//     padding: 10px 20px;
+//     border-radius: 8px;
+//     cursor: pointer;
+// }
+

@@ -9,12 +9,6 @@
     align-items: center;
 }
 
-.botMessage {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-}
 
 p#userInput ,p.output {
     color: white;
@@ -75,4 +69,31 @@ p#userInput ,p.output {
 .send-input::placeholder {
     color: #828E9E;
     font-size:  15px;
+}
+
+
+// Mic and animation
+
+.mic-animation {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.mic-animation-listening {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        color: #ffffff;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #ff0000;
+    }
+    100% {
+        transform: scale(1);
+        color: #ffffff;
+    }
 }
