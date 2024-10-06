@@ -27,9 +27,10 @@ export default function BotPage() {
 
     const handleSubmit = async () => {
         if (!state.text) return;
-
+        
         setIsFocus(false);
         setLoader(true);
+        document.getElementById("text").value = "";
         setMessages([...messages, { message: state.text, uid }]);
 
         try {
@@ -47,7 +48,6 @@ export default function BotPage() {
 
         setState({ text: "" });
         setLoader(false);
-        document.getElementById("text").value = "";
     };
 
     const handleFocus = () => {

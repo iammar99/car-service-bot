@@ -9,15 +9,9 @@
 <li>Run the command npm-i</li>
 <li>Run the command npm install react-router-dom</li>
 <li>run command npm start</li>
+<li>Run the command cd groq-backend</li>
+<li>Run the command node server.js</li>
 </ol>
-
-
-api key = "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" 
-
-
-
-
-
 
 
 
