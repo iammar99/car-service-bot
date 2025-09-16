@@ -128,7 +128,7 @@ export default function BotPage() {
                         <div className={`${className} ${text} mt-4 ${margin}`} key={i}>
                             <img src={img} style={{ width, height: "55px", borderRadius: "50%", margin: "0px 17px" }} alt="" />
                             {message.uid ? (
-                                <p className="m-0 userInput" id='userInput'>
+                                <p className="m-0 userInoput" id='userInput'>
                                     {message.message}
                                 </p>
                             ) : (
